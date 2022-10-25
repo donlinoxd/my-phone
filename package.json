@@ -1,0 +1,42 @@
+{
+    "name": "myphone",
+    "version": "1.0.0",
+    "description": "My Phone Official Client Source Code",
+    "author": "Muhammad Yusuf",
+    "private": true,
+    "license": "MIT",
+    "engines": {
+        "node": "16.16.0",
+        "npm": "8.14.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://gitlab.com/cabaisma/my-phone-client"
+    },
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "@reduxjs/toolkit": "1.8.5",
+        "axios": "0.27.2",
+        "next": "12.3.0",
+        "react": "18.2.0",
+        "react-dom": "18.2.0",
+        "react-icons": "4.4.0",
+        "react-redux": "8.0.2",
+        "redux-persist": "^6.0.0",
+        "sharp": "0.31.0"
+    },
+    "devDependencies": {
+        "@types/node": "18.7.18",
+        "@types/react": "18.0.20",
+        "@types/react-dom": "18.0.6",
+        "eslint": "8.23.1",
+        "eslint-config-next": "12.3.0",
+        "sass": "1.54.9",
+        "typescript": "4.8.3"
+    }
+}
